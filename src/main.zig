@@ -311,7 +311,7 @@ pub fn main() anyerror!void {
     game.registerGameElements();
     defer game.particles.deinit();
 
-    rl.initWindow(screen_width, screen_height, "Wannabe Pong");
+    rl.initWindow(screen_width, screen_height, "Wannabe Pong - Zong");
     defer rl.closeWindow();
 
     rl.setTargetFPS(60);
