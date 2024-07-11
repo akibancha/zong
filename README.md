@@ -6,6 +6,6 @@ Simple Pong clone written in zig using raylib as graphics lib.
 zig 0.13
 
 # Compile and run
-Download or clone the git repo.
-cd into the repo
-run "zig build run"
+* Download or clone the git repo  <br />
+* cd into the repo  <br />
+* run "zig build run" 
