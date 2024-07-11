@@ -9,3 +9,7 @@ zig 0.13
 * Download or clone the git repo  <br />
 * cd into the repo  <br />
 * run "zig build run" 
+
+# Controls
+* q and w to move the left bar up and down
+* i and o to move the right bar up and down
