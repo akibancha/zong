@@ -269,8 +269,8 @@ const Game = struct {
 
     pub fn registerGameElements(self: *Game) void {
         self.ball = Ball.init(screen_width / 2, screen_height / 2, 16, 8, self);
-        self.bar_p1 = Bar.init(32, 45, 16, 160, self, Player.one);
-        self.bar_p2 = Bar.init(screen_width - 48, 45, 16, 160, self, Player.two);
+        self.bar_p1 = Bar.init(32, (screen_height / 2) - 64, 16, 160, self, Player.one);
+        self.bar_p2 = Bar.init(screen_width - 48, (screen_height / 2) - 64, 16, 160, self, Player.two);
         self.particles = std.ArrayList(Particle).init(self.allocater);
     }
 
