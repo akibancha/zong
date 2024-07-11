@@ -1,6 +1,6 @@
 # zong
 My first litte zig project...  <br />
-Simple Pong clone written in zig using raylib as graphics lib. 
+A simple Pong clone written in zig using raylib as graphics lib. 
 
 # Dependencies:
 zig 0.13
